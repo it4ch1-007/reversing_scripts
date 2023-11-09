@@ -18,7 +18,7 @@ from unicorn.arm64_const import *
 with open('<filename>','rb') as fp:
     code = fp.read()
 ADDR=0x400000  #random address where you want to write the shellcode or the new dumpes data to be emulated
-STACK = 0x100000 #b ase address of the stack
+STACK = 0x100000 #base address of the stack
 STACK_SZ = 1024*1024
 FLAG_ADDR = 0x400285
 
